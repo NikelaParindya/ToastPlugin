@@ -27,3 +27,7 @@ void main() {
     expect(await toastmessagePlugin.getPlatformVersion(), '42');
   });
 }
+
+class Toastmessage {
+  getPlatformVersion() {}
+}
